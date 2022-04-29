@@ -15,6 +15,13 @@ import {
   Header,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
+const myButton = (
+  <Icon.Button name="facebook" backgroundColor="#3b5998" onPress={() => {}}>
+    Login with Facebook
+  </Icon.Button>
+);
 
 const Section: React.FC<{
   title: string;
@@ -76,6 +83,7 @@ const App = () => {
             Read the docs to discover what to do next:
           </Section>
           <View>
+            {myButton}
             <Text>hello world</Text>
           </View>
         </View>
