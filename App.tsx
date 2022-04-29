@@ -4,6 +4,7 @@ import * as React from 'react';
 import {View, Text, Button} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import RNBootSplash from 'react-native-bootsplash';
 
 function HomeScreen({navigation}) {
   return (
@@ -28,6 +29,10 @@ function DetailsScreen() {
 const Stack = createNativeStackNavigator();
 
 function App() {
+  React.useEffect(() => {
+    RNBootSplash.hide();
+  }, []);
+
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
