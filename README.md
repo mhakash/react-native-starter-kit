@@ -2,13 +2,14 @@
 
 This app is a boilerplate based on packages and setup I use to create a new react-native app
 
-tested for both android and ios
+**_tested for both android and ios_**
 
-## Packages and tools included
+## Whats included ?
 
-- [typescript](https://github.com/microsoft/TypeScript)
+- react native v0.68
+- [typescript](https://github.com/microsoft/TypeScript) support
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-- [react-navigation](https://github.com/react-navigation/react-navigation)
+- [react-navigation](https://github.com/react-navigation/react-navigation) stack, bottom-tab and drawer navigation implemented
 - [rn-bootsplash](https://github.com/zoontek/react-native-bootsplash)
 
 TODO
