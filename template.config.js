@@ -1,5 +1,5 @@
 module.exports = {
-  placeholderName: 'reactnativestarterkit',
+  placeholderName: 'project',
   templateDir: './template',
   postInitScript: './script.js',
 };
